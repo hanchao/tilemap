@@ -18,7 +18,10 @@ public class MapView {
 	
 	
 	//MapQuestTileProvider TileProvider = new MapQuestTileProvider();
-	OpenStreetMapTileProvider TileProvider = new OpenStreetMapTileProvider();
+	//OpenStreetMapTileProvider TileProvider = new OpenStreetMapTileProvider();
+	BingSatelliteTileProvider TileProvider = new BingSatelliteTileProvider();
+	//GoogleSatelliteTileProvider TileProvider = new GoogleSatelliteTileProvider();
+	
 	MercatorProjection projection = new  MercatorProjection();
 	
 	int zoom = 0;
